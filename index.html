@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
-<body>
+<body style="position: relative;">
     <div class="headBar">
         <h2>Sithu Music Store</h2>
         
@@ -23,7 +23,7 @@
     <div class="productList">
         <div class="item">
           
-                <img width="245" src="images/fender_guitar.jpg">
+            <img width="100%" src="images/fender_guitar.jpg">
         
             
             <div class="detail">
@@ -33,9 +33,9 @@
                     <h3>500 dollers</h3>
     
                     <div class="iconQtn">
-                        <i class="bi bi-dash-square"></i>
+                        <i class="bi bi-dash-square" id="minus1"></i>
                         <div class="qtn">0</div>
-                        <i class="bi bi-plus-square"></i>
+                        <i class="bi bi-plus-square" id="plus1"></i>
                     </div>
                 </div>
                
@@ -46,7 +46,7 @@
 
         <div class="item">
             
-                <img width="245" src="images/yamaha_drumset.png">
+            <img width="100%" height="250px" src="images/yamaha_drumset.png">
            
             
             <div class="detail">
@@ -56,9 +56,9 @@
                     <h3>250 dollers</h3>
     
                     <div class="iconQtn">
-                        <i class="bi bi-dash-square"></i>
+                        <i class="bi bi-dash-square" id="minus2"></i>
                         <div class="qtn">0</div>
-                        <i class="bi bi-plus-square"></i>
+                        <i class="bi bi-plus-square" id="plus2"></i>
                     </div>
                 </div>
                
@@ -69,7 +69,7 @@
 
         <div class="item">
     
-                <img width="245" src="images/fender_bass.jpg">
+            <img width="100%" src="images/fender_bass.jpg">
    
             
             <div class="detail">
@@ -79,9 +79,9 @@
                     <h3>600 dollers</h3>
     
                     <div class="iconQtn">
-                        <i class="bi bi-dash-square" ></i>
+                        <i class="bi bi-dash-square" id="minus3"></i>
                         <div class="qtn">0</div>
-                        <i class="bi bi-plus-square"></i>
+                        <i class="bi bi-plus-square" id="plus3"></i>
                     </div>
                 </div>
                
@@ -90,7 +90,9 @@
           
         </div>
     </div>
-
+    <div class="selectedItemsContainer">
+        
+    </div>
 <script src="main.js"></script>
 
 </body>
